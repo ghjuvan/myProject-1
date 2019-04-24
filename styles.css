@@ -20,3 +20,13 @@
     font-family: Arial;
     font-size: large;
 }
+
+.myNewTitle {
+    color: indianred;
+    font-family: Cambria;
+    text-decoration: underline;
+    border: thin solid red;
+    width: 50%;
+    height: 50px;
+    box-shadow: 3px 3px 3px black;
+}
