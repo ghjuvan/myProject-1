@@ -30,3 +30,9 @@
     height: 50px;
     box-shadow: 3px 3px 3px black;
 }
+
+.newParagraph {
+    color: black;
+    font-family: Arial;
+    font-size: large;
+}
