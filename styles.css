@@ -36,3 +36,18 @@
     font-family: Arial;
     font-size: large;
 }
+
+.lastTitle {
+    color: darkmagenta;
+    text-decoration: underline;
+    border: thin solid red;
+    width: 50%;
+    height: 50px;
+    box-shadow: 3px 3px 3px black;
+}
+
+.lastParagraph {
+    color: blue;
+    font-family: Consolas;
+    font-size: large;
+}
