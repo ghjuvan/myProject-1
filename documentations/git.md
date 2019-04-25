@@ -31,7 +31,6 @@ plus facilement son code source s'appuyant sur le logiciel **Git**.
 * **git commit** :
 * **git push** :
 * **git branch** :
-* **git log** :
 * **git pull** :
 * **git merge** :
 

@@ -1,1 +1,1 @@
-console.log('Hello les Lapinous !');
+console.log('Hello !');
