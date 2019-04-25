@@ -1,19 +1,20 @@
 .background {
     display: flex;
     text-align: center;
-
+    flex-direction: column;
+    height: 100vh;
 }
+
+
+
 
 .flex-header {
     background-color: tomato;
+
 }
 
 .flex-main {
     background-color: crimson;
-}
-
-.flex-aside {
-    background-color: darkgoldenrod;
 }
 
 .flex-footer {
