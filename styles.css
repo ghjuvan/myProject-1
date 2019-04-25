@@ -1,53 +1,21 @@
 .background {
-    background-color: aqua;
+    display: flex;
+    text-align: center;
+
 }
 
-.title {
-    color: crimson;
+.flex-header {
+    background-color: tomato;
 }
 
-.underTitle {
-    color: coral;
-    text-decoration: underline;
-    border: thin solid red;
-    width: 50%;
-    height: 50px;
-    box-shadow: 3px 3px 3px black;
+.flex-main {
+    background-color: crimson;
 }
 
-.paragraph {
-    color: black;
-    font-family: Arial;
-    font-size: large;
+.flex-aside {
+    background-color: darkgoldenrod;
 }
 
-.myNewTitle {
-    color: indianred;
-    font-family: Cambria;
-    text-decoration: underline;
-    border: thin solid red;
-    width: 50%;
-    height: 50px;
-    box-shadow: 3px 3px 3px black;
-}
-
-.newParagraph {
-    color: black;
-    font-family: Arial;
-    font-size: large;
-}
-
-.lastTitle {
-    color: darkmagenta;
-    text-decoration: underline;
-    border: thin solid red;
-    width: 50%;
-    height: 50px;
-    box-shadow: 3px 3px 3px black;
-}
-
-.lastParagraph {
-    color: blue;
-    font-family: Consolas;
-    font-size: large;
+.flex-footer {
+    background-color: indianred;
 }
