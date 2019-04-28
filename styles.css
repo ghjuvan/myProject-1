@@ -4,6 +4,9 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    width: calc(100% / 2);
+    margin-left: calc(100% / 4);
 }
 
 .flex-header {
@@ -57,4 +60,6 @@ h2 {
 
 ul {
     list-style: none;
+    display: inline-flex;
+
 }
