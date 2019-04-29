@@ -1,17 +1,8 @@
-const user = {
-
-    school1: 'White Rabbit',
-    label1: 'Formation intensive de cours de développment web spécialisé dans l\'environnement Javascript',
-    school2: 'O\'clock',
-    label2: 'Formation Développeur  web en ligne',
-    school3: 'WEBFORCE3 - Développement web',
-    label3: 'Introduction au métier de Développeur web',
-    experience1: 'Développeur Front-end en tant que micro-entrepreneur',
-    labelExperience1: 'Début d\'activité en tant que profession libérale dans les métiers du web',
-    centerInterest: 'Sports, Cuisiner, Nouvelles technologies'
-};
+// Version ES6 import {} from '';
+import { user, showMyHobbies } from './data.js';
 
 
+// Display HTML code with a JavaScript function
 function addTextInHtml(baliseHtml, infoUser) {
 
     document.querySelector(baliseHtml).textContent = infoUser;
@@ -27,5 +18,19 @@ addTextInHtml('.school3', user.school3);
 addTextInHtml('.label3', user.label3);
 
 
+// Display HTML code with a JavaScript loop for the section point of interests
+showMyHobbies.forEach((value, key) => {
 
+    console.log(value);
+    addTextInHtml(key, value);
+
+});
+
+// Display the year in the Footer section
+function showFullYear() {
+    const year = new Date();
+    addTextInHtml(year.getFullYear());
+}
+
+showFullYear('.showYear');
 
