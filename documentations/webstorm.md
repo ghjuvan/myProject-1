@@ -5,7 +5,9 @@
 
 ## 1. Définition
 **Webstorm** est un **IDE** (Integrated Development Environement) ou environnement de développement en français.
-Il intègre une coloration de la syntax.
+Il se compose de plusieurs outils comme une coloratin syntaxique, un éditeur de texte dans différent languages, association
+d'un compte pour utiliser un gestionnaire de code source, etc... afin d'ameliorer la productivité.
+d'un logiciel de gestion de source de code
 
 ## 2. Les commandes claviers version PC
 

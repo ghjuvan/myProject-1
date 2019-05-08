@@ -8,7 +8,7 @@ Une **boucle** en programmation permet de répéter une instruction autant de fo
 
 #### La Boucle For :
 
-`for ([expression d'initial] ; [condition] ; [expression incrément]) { instruction(s) }`
+`for ([expression d'initial] ; [Prédicat de continuation] ; [expression incrément]) { instruction(s) }`
 
 1. La partie **Expression initiale** est exécuté et peut servir à déclarer une variable.
 2. La condition est exécuté si la valeur renvoyé est `True` sinon la boucle se termine.
@@ -16,3 +16,4 @@ Une **boucle** en programmation permet de répéter une instruction autant de fo
 4. La partie **Expression incrément** est mise à jour avant de retourner à la partie **Condition**.
 
 #### La Boucle While :
+Éviter de l'utiliser !
