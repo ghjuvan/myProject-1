@@ -28,7 +28,8 @@ documentations
 ├── javascript
 │   ├── javascript.md
 │   ├── les\ boucles.md
-│   └── les\ méthodes.md
+│   ├── les\ méthodes.md
+│   └── les\ opérateurs.md
 ├── markdown.md
 └── webstorm.md
 ```
