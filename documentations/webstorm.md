@@ -11,7 +11,8 @@ d'un logiciel de gestion de source de code
 
 ## 2. Les commandes claviers version PC
 
-* **Ctrl + Z :** retour en arrière du code supprimé
+* Retour en arrière du code supprimé :
+  `Ctrl + Z`
 * **Maj + Ctrl + z:** allez dans le temps après un retour en arrière avec Ctrl + Z
 * **Ctrl + a :** sélectionne toute les lignes de codes
 * **Ctrl + espace :** affiche les suggestions
