@@ -40,3 +40,8 @@ Complexe, la méthode **reduce()** utilise une fonction **accumulateur** qui fus
 tableaux en un seul de gauche à droite.
 
 * Syntax : `tableau.reduce(accumulator, value) => { return acc + value }`
+
+#### 1.6 Sort()
+La méthode **sort()** trie les éléments du tableau avec deux paramètres et renvoie le tableau.
+
+* Syntax: `tableau.sort(value1, value2)`
